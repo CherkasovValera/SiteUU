@@ -1,6 +1,6 @@
 "use strict";
 
-async function fecthData() {
+// async function fecthData() {
   try {
     const response = await fetch("data.json");
     if (!response.ok) {
