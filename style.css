@@ -1096,11 +1096,12 @@ summary::-webkit-details-marker {
   margin-top: 64px;
   margin-bottom: 96px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   gap: 128px;
 }
 .registration__formup {
-  max-width: 360px;
+  max-width: 358px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -1520,7 +1521,7 @@ summary::-webkit-details-marker {
   }
   .promo__info {
     margin-bottom: 48%;
-    border-left: 15px solid #F16D7F;
+    border-left: 15px solid #23B5C9;
   }
   .promo__title {
     color: #222;
@@ -1533,15 +1534,15 @@ summary::-webkit-details-marker {
   .of_luxerious {
     color: #222;
     font-family: Lato;
-    font-size: 20px;
+    font-size: 21px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
   }
   .fashion {
-    color: #F16D7F;
+    color: #23B5C9;
     font-family: Lato;
-    font-size: 20px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -1665,6 +1666,12 @@ summary::-webkit-details-marker {
   }
   .cart__total {
     margin-bottom: 96px;
+  }
+  .gramota__box {
+    grid-template-columns: repeat(auto-fit, 350px);
+  }
+  .subscribl_foto_txt {
+    width: 350px;
   }
   .subscribe_txt {
     text-align: center;

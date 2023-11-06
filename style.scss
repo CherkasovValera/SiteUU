@@ -1300,12 +1300,13 @@ line-height: normal;
     margin-top: 64px;
     margin-bottom: 96px;
     display: flex;
+    flex-wrap: wrap;
 		justify-content: space-between;
     gap: 128px;
     &__left{
     }
     &__formup{
-      max-width: 360px;
+      max-width: 358px;
 			display: flex;
 			flex-direction: column;
 			gap: 20px;
@@ -1510,8 +1511,7 @@ line-height: normal;
       font-size: 20px;
       font-style: italic;
       font-weight: 400;
-      line-height: normal;
-  
+      line-height: normal;  
     }
    .subscribl_win{
     width: 360px;
@@ -1754,7 +1754,7 @@ line-height: normal;
     }
     .promo__info{
       margin-bottom: 48%;
-      border-left: 15px solid #F16D7F;
+      border-left: 15px solid $colorSelectSite;
     }
     .promo__title{
       color: #222;
@@ -1767,15 +1767,15 @@ line-height: normal;
     .of_luxerious{
       color: #222;
       font-family: Lato;
-      font-size: 20px;
+      font-size: 21px;
       font-style: normal;
       font-weight: 700;
       line-height: normal;    
     }
     .fashion{
-      color: #F16D7F;
+      color: $colorSelectSite;
       font-family: Lato;
-      font-size: 20px;
+      font-size: 24px;
       font-style: normal;
       font-weight: 700;
       line-height: normal;
@@ -1854,6 +1854,7 @@ line-height: normal;
       margin-bottom: 0px;
       gap: 60px;
     }
+    
     .top-head{
       padding-top: 50px ;
       padding-bottom: 70px;
@@ -1903,6 +1904,12 @@ line-height: normal;
       &__total{
         margin-bottom: 96px;
       }
+    }
+    .gramota__box{      
+      grid-template-columns: repeat(auto-fit, 350px);      
+    }
+    .subscribl_foto_txt{
+      width: 350px;
     }
     .subscribe_txt{
       text-align: center;
