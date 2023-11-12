@@ -1242,7 +1242,7 @@ summary::-webkit-details-marker {
 
 .gramota__box {
   display: grid;
-  grid-template-columns: repeat(auto-fit, 450px);
+  grid-template-columns: repeat(auto-fit, 300px);
   justify-content: space-evenly;
 }
 

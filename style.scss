@@ -87,7 +87,7 @@ $backBlockColor: #222;
     position: absolute;
     visibility: hidden;
     left: -9999999px;
-  }
+  }  
   
   .header__checkbox:checked~.mobile-menu {
     right: 0;
@@ -1449,7 +1449,7 @@ line-height: normal;
   }
   .gramota__box{
     display: grid;
-    grid-template-columns: repeat(auto-fit, 450px);
+    grid-template-columns: repeat(auto-fit, 300px);
     justify-content: space-evenly;
   }
   .subscribl_box{
@@ -1744,6 +1744,7 @@ line-height: normal;
     .header__link-site{
       display: none;
     }
+    
     
     .promo__img{
       display: none;    
