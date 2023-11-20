@@ -1447,11 +1447,19 @@ line-height: normal;
       }
     }
   }
-  .gramota__box{
+  .gramota{
+    display: grid;
+  }
+    .gramota__box{
     display: grid;
     grid-template-columns: repeat(auto-fit, 300px);
     justify-content: space-evenly;
-  }
+    }
+    .sertific__box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 300px);
+    justify-content: space-evenly;
+    }
   .subscribl_box{
     width: 100%;
     height: auto;
